@@ -4,7 +4,7 @@ import Chisel._
 import freechips.rocketchip.config.{Parameters, Field}
 
 case class BHTParameters(
-  enabled: Boolean = false,
+  enabled: Boolean = true,
   num_entries: Int = 128)
 
 case object BHTKey extends Field[BHTParameters]

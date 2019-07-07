@@ -22,9 +22,9 @@ object Lab3Settings {
   val DCACHE_WAYS = 4
   val DCACHE_LINES = 256
 
-  val CUSTOM_BR_PRED_EN = true
-  val CUSTOM_BR_PRED_HISTORY_LEN = 9
-  val CUSTOM_BR_PRED_INFO_SIZE = 46
+  val CUSTOM_BR_PRED_EN = false
+  val CUSTOM_BR_PRED_HISTORY_LEN = 1
+  val CUSTOM_BR_PRED_INFO_SIZE = 0
 }
 
 class WithBoomExampleTop extends Config((site, here, up) => {

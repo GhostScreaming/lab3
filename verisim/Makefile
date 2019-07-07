@@ -1,7 +1,6 @@
 base_dir=$(abspath ..)
 sim_dir=$(abspath .)
 testchip_dir=$(base_dir)/testchipip
-RISCV = /home/caizikai/Desktop/riscv-toolchain64
 
 PROJECT ?= boomexample
 MODEL ?= TestHarness
@@ -86,7 +85,7 @@ $(output_dir)/%.vpd: $(output_dir)/% $(sim_debug)
 	$(sim_debug) +dramsim -v$@.vcd +max-cycles=1000000 $<
 
 $(output_dir)/%.riscv.out: $(bmarks_dir)/%.riscv $(sim) $(output_dir)/.dummy
-	$(sim) +dramsim +max-cycles=5000000 $< > $@
+	$(sim) +dramsim +max-cycles=5000000 $< &> $@
 
 run-regression-tests: $(addprefix $(output_dir)/,$(addsuffix .out,$(regression-tests)))
 
