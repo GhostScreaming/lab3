@@ -1,0 +1,22 @@
+[info] Running boomexample.Generator /home/caizikai/Desktop/lab/lab3/project-template/verisim/generated-src boomexample TestHarness boomexample Lab3Config
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug]   Classpath:
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/target/scala-2.11/classes
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/scopt_2.11-3.6.0.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/coremacros_2.11-3.1-SNAPSHOT.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/firrtl.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/chisel3_2.11-3.1-SNAPSHOT.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/scala-reflect-2.11.12.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/macros_2.11-1.2.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/hardfloat_2.11-1.2.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/boom_2.11-1.0.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/testchipip_2.11-1.0.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/chiselfrontend_2.11-3.1-SNAPSHOT.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/scala-library-2.11.12.jar
+[debug] 	/home/caizikai/Desktop/lab/lab3/project-template/lib/rocketchip_2.11-1.2.jar
+[debug] 	/root/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+[debug] Waiting for thread run-main-0 to terminate.
+[debug] 	Thread run-main-0 exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Sandboxed run complete..
+[debug] Exited with code 0

@@ -1,0 +1,12 @@
+/home/caizikai/Desktop/lab/lab3/project-template/lib/testchipip.stamp: $(call lookup_scala_srcs, /home/caizikai/Desktop/lab/lab3/project-template/testchipip) $(rocketchip_stamp)
+	rm -f /home/caizikai/Desktop/lab/lab3/project-template/testchipip/lib
+	ln -s /home/caizikai/Desktop/lab/lab3/project-template/lib /home/caizikai/Desktop/lab/lab3/project-template/testchipip/lib
+	cd /home/caizikai/Desktop/lab/lab3/project-template/testchipip && $(SBT) package
+	cp /home/caizikai/Desktop/lab/lab3/project-template/testchipip/target/scala-2.11/*.jar /home/caizikai/Desktop/lab/lab3/project-template/lib
+	touch $@
+/home/caizikai/Desktop/lab/lab3/project-template/lib/boom.stamp: $(call lookup_scala_srcs, /home/caizikai/Desktop/lab/lab3/project-template/boom) $(rocketchip_stamp)
+	rm -f /home/caizikai/Desktop/lab/lab3/project-template/boom/lib
+	ln -s /home/caizikai/Desktop/lab/lab3/project-template/lib /home/caizikai/Desktop/lab/lab3/project-template/boom/lib
+	cd /home/caizikai/Desktop/lab/lab3/project-template/boom && $(SBT) package
+	cp /home/caizikai/Desktop/lab/lab3/project-template/boom/target/scala-2.11/*.jar /home/caizikai/Desktop/lab/lab3/project-template/lib
+	touch $@
